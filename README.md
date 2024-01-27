@@ -9,6 +9,7 @@ This project focuses on sentiment analysis for Arabic text using deep learning t
 ## Table of Contents
 
 - [Key Features](#key-features)
+- [Dataset](#Dataset)
 - [Data Preparation](#data-preparation)
 - [Text Tokenization and Encoding](#Text-Tokenization-and-Encoding)
 - [Imbalance Handling](#Imbalance-Handling)
@@ -26,6 +27,12 @@ This project focuses on sentiment analysis for Arabic text using deep learning t
 - Training and evaluation strategies.
 - Visualizations and analysis tools.
 
+## Dataset
+- The dataset used for this project consists of Arabic reviews, each accompanied by associated sentiment labels.
+- **Review Text**: The primary input data consists of Arabic text from various sources. The reviews cover a wide range of topics and come with different writing styles.
+- Dataset is splited by 80% training and 20% testing in two files called training and testing train data with labels test data without any labels it callculated by kaggel
+-  **Dataset Size**: 32037, , 35% for negative class ,60% for positive class 5 for natural class.
+![download](https://github.com/mostafaahmed-12/Arabic-Sentiment-Analysis-with-Deep-Learning/assets/77200939/08f43a8b-344f-4100-aef8-26e880454530)
 ## Data Preparation
  - Duplicated reviews are removed from the training data.
  - Textual data is processed by replacing and removing specific characters, handling diacritics, and normalizing the text.
