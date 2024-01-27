@@ -9,8 +9,6 @@ This project focuses on sentiment analysis for Arabic text using deep learning t
 ## Table of Contents
 
 - [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Data Preparation](#data-preparation)
 - [Model Architectures](#model-architectures)
 - [Training](#training)
@@ -27,14 +25,10 @@ This project focuses on sentiment analysis for Arabic text using deep learning t
 - Training and evaluation strategies.
 - Visualizations and analysis tools.
 
-## Installation
+## Data Preparation
+ - Duplicated reviews are removed from the training data.
+   - Textual data is processed by replacing and removing specific characters, handling diacritics, and normalizing the text.
+   - Stop words are removed, and stemming is applied.
+   - Emojis are handled, and an embedding is created.
+   - One-hot encoding is performed for target classes.
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/your-repo.git
-
-# Move to the project directory
-cd your-repo
-
-# Install dependencies
-pip install -r requirements.txt
