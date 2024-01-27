@@ -73,7 +73,7 @@ This project focuses on sentiment analysis for Arabic text using deep learning t
  - Different experiments are conducted, including handling class imbalance, resampling data, adjusting hyperparameters, and incorporating regularization techniques.
  - Model performance metrics such as accuracy and categorical cross-entropy loss are monitored and evaluated.
  - optimization  Algorithm is Adam
- ## Experimental Approaches
+ ## Results
  - LSTM 80%.
  - Transfromers 81%.
  - CNN2LSTN 82%.
