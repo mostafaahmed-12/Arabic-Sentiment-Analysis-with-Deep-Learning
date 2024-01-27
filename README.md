@@ -67,13 +67,13 @@ This project focuses on sentiment analysis for Arabic text using deep learning t
  - Model performance metrics such as accuracy and categorical cross-entropy loss are monitored and evaluated.
  - optimization  Algorithm is Adam
 ## Results
-+----------------------+
-|   Experiment Results |
-+----------------------+
-| 1. LSTM Model: 80.81% |
-| 2. Transformer Model: 82.00% |
-| 3. CNN2LSTM  Model:82.00%
-+----------------------+
+-+----------------------+
+-|   Experiment Results |
+-+----------------------+
+-| 1. LSTM Model: 80.81% |
+-| 2. Transformer Model: 82.00% |
+-| 3. CNN2LSTM  Model:82.00%
+-+----------------------+
 
 
 
